@@ -1,0 +1,160 @@
+.forBG{
+  height: 100vh;
+  // background-color: turquoise;
+  background-image: url("./3.jpeg");
+  width: 100vw;
+  max-width: 100vw;
+  background-color: #fff;
+  background-size: 100vw 100vh;
+  position: fixed;
+}.MainContainer {
+  height: 100%;
+  width: 100vw;
+  // background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // z-index: -1;
+}
+
+.Section1 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // z-index: -1;
+  .HeadContainer {
+    height: 70vh;
+    width: 80vw;
+    background-color: rgba(255, 255, 255, 0.855);
+    // border-radius: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    transition: 0.3s all;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    h1 {
+      align-items: center;
+      // background-color: yellowgreen;
+      margin: 2%;
+      text-align: center;
+      border-radius: 10px;
+    }
+  }
+  .HeadContainer:hover {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+  .HeadContents {
+    // background-color: rgba(0, 0, 0, 0.431);
+    // height: 60vh;
+    // width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+
+    .HeadCred {
+      margin: 0 5%;
+    }
+  }
+  .HeadLeft {
+    // background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    img {
+      margin: 0 5%;
+      border-radius: 10px;
+      width: 20vh;
+      background-color: #fff;
+    }
+  }
+  .HeadRight {
+    // background-color: orange;
+    height: 100%;
+    width: 60%;
+    h4 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      padding: 5%;
+      // margin: 5%;
+    }
+  }
+}
+
+
+.Section2 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // z-index: -1;
+  .SrAssContainer {
+    height: 70vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.855);
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    transition: 0.3s all;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    h1 {
+      align-items: center;
+      // background-color: yellowgreen;
+      margin: 2%;
+      text-align: center;
+      border-radius: 10px;
+    }
+  }
+  .SrContents {
+    // background-color: rgba(0, 0, 0, 0.596);
+    height: 100%;
+    // width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+}
+
+.Section3 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // z-index: -1;
+  .AssContainer {
+    height: 70vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.855);
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    transition: 0.3s all;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    h1 {
+      align-items: center;
+      // background-color: yellowgreen;
+      margin: 2%;
+      text-align: center;
+      border-radius: 10px;
+    }
+  }
+  .AssContents {
+    // background-color: rgba(0, 0, 0, 0.596);
+    height: 100%;
+    // width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+}

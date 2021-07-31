@@ -1,0 +1,120 @@
+// This is taken from HomeService
+.dropHeightHS {
+  margin-top: 15vh;
+  // position: absolute;
+}
+.dropdownContainer {
+  position: absolute;
+  top: 15vh;
+  // height: 0vh;
+  width: 100vw;
+  max-width: 100%;
+  // margin-top: 8vh;
+  // background-color: orange;
+  display: flex;
+  justify-content: center;
+}
+.dropdownContainerM {
+  position: absolute;
+  height: 70%;
+  bottom: 0;
+  width: 100vw;
+  max-width: 100%;
+  // margin-top: 8vh;
+  // background-color: orange;
+  z-index: 2024;
+  display: flex;
+  justify-content: center;
+}
+.dropdown {
+  // background-color: orangered;
+  // height: 70vh;
+  width: 90vw;
+  display: flex;
+  border-radius: 10px;
+  background-color: rgba(250, 250, 250, 0.915);
+  z-index: 3000;
+}
+.dropdownM {
+  // height: 70vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgba(250, 250, 250, 0.915);
+  z-index: 3000;
+  overflow: auto;
+}
+.itemContainer {
+  height: 100%;
+  padding: 10px 0;
+  width: 15vw;
+  display: grid;
+  justify-content: center;
+  opacity: 0.99;
+  align-content: flex-start;
+}
+.itemContainerM {
+  height: 100%;
+  padding: 10px 0;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  opacity: 0.99;
+  align-content: flex-start;
+}
+.dropDownTitle {
+  // background-color: black;
+  // border-bottom: 1px solid gray;
+  height: 40px;
+  color: #000;
+  font-weight: 800;
+  // margin-top: 20px;
+  width: 10vw;
+  text-align: center;
+  margin: 20px;
+}
+.dropDownTitleM {
+  // background-color: black;
+  // border-bottom: 1px solid gray;
+  height: 40px;
+  color: #000;
+  font-weight: 800;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+.dropdownSubContainer {
+  // border-top: 1px solid gray;
+  display: flex;
+  font-weight: 700;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.dropdownSubTitle {
+  text-align: center;
+  width: 90%;
+  height: 4vh;
+  margin: 1vh 5%;
+  font-size: 1.1rem;
+  // background-color: burlywood;
+  transition: 0.2s all ease-in-out;
+  font-weight: 500;
+}
+.dropdownSubTitle:hover {
+  color: #727272;
+  cursor: pointer;
+}
+.dropHover {
+  color: #000;
+  text-decoration: "none";
+  transition: 0.2s all ease-in-out;
+  font-weight: 500;
+}
+.dropHover:hover {
+  color: #727272;
+  cursor: pointer;
+  font-weight: 500;
+}
