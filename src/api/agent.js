@@ -19,7 +19,7 @@ axios.interceptors.response.use(undefined, (error) => {
     throw error.response;
   });
 
-axios.defaults.baseURL = "http://hdm.tnz.mybluehost.me/api";
+axios.defaults.baseURL = "https://hdm.tnz.mybluehost.me/api";
 
 const responseBody = (response) => response.data;
 
